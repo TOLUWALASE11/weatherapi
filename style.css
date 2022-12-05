@@ -4,3 +4,31 @@
   box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color:#333
+}
+
+footer{
+    border:1px solid #333;
+    border-radius: 5px;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+body{
+    background-color: lavender;
+}
+main{
+    min-width: 30vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: auto;
+    top:50vh;
+    left:50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
